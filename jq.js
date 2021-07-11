@@ -12,7 +12,6 @@ in code when selecting many DOM elements.
 
 export function $(element) {
     if(element) {
-        if (typeof(element) !== typeof('string')) throw TypeError('Parameter must be a class name or ID tag.');
         if (typeof(element) === typeof(0)) throw TypeError('You passed a number, pass a valid string instead.');
         const regex = /^[\w||.]/;
         if(!regex.test(element)) throw Error('You need to supply a correct argument to select the element');
