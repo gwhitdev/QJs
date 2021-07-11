@@ -12,7 +12,7 @@ as you keep this attribution.
 ### Use in your code:
 #### Import into your JS file:
 ```javascript
-import { $ } from './jq.js';
+import { $ } from './qj.js';
 ```
 
 #### Select an element by an ID:
